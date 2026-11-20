@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>She Builds the World — Role models in engineering, security, AI &amp; design</title>
+  <meta name="description" content="A starter gallery of public profiles of women in mechanical engineering, cybersecurity, artificial intelligence, and product design — mini-CVs a girl can look up.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#gallery">Skip to gallery</a>
+
+  <header class="hero">
+    <svg class="gear" viewBox="0 0 200 200" aria-hidden="true">
+      <g fill="none" stroke="#C4A574" stroke-width="3">
+        <circle cx="100" cy="100" r="38"/>
+        <circle cx="100" cy="100" r="18"/>
+        <path d="M100 20 L108 42 L92 42 Z M180 100 L158 108 L158 92 Z M100 180 L92 158 L108 158 Z M20 100 L42 92 L42 108 Z M156.6 43.4 L148 63.4 L134.1 54.1 Z M156.6 156.6 L134.1 145.9 L148 136.6 Z M43.4 156.6 L52 136.6 L65.9 145.9 Z M43.4 43.4 L65.9 54.1 L52 63.4 Z"/>
+        <circle cx="100" cy="100" r="72" stroke-dasharray="2 10" opacity="0.7"/>
+      </g>
+    </svg>
+    <div class="wrap">
+      <p class="kicker"><span>Vol. II · Riyadh</span><span>Engineering · Security · AI · Design</span><span>Public profiles</span></p>
+      <h1>She builds <em>the world.</em></h1>
+      <p class="lede">These are public profiles of women in mechanical engineering, cybersecurity, artificial intelligence, and product design — people a girl can look up, watch, read about, and grow toward. This refresh expands Africa and Asia alongside Near home (Saudi/MENA) leaders — mini-CVs, not mythology.</p>
+      <p class="disclaimer">A starter gallery of public role models — not an exhaustive ranking.</p>
+      <p class="updated">Last updated: <time datetime="2026-11-05">5 Nov 2026</time></p>
+      <div class="hero-rule">
+        <span><strong id="hero-count">166</strong> people across four domains · portraits from official public sources</span>
+        <span>For a young builder in the making</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="wrap toolbar-inner">
+      <div class="filter-stack">
+        <div class="chips chips-domain" role="group" aria-label="Filter by domain">
+          <button class="chip chip-domain" type="button" data-domain="all" aria-pressed="true">All domains</button>
+          <button class="chip chip-domain" type="button" data-domain="mechanical-engineering" aria-pressed="false">Mechanical Engineering</button>
+          <button class="chip chip-domain" type="button" data-domain="cybersecurity" aria-pressed="false">Cybersecurity</button>
+          <button class="chip chip-domain" type="button" data-domain="ai" aria-pressed="false">Artificial Intelligence</button>
+          <button class="chip chip-domain" type="button" data-domain="product-design" aria-pressed="false">Product Design</button>
+        </div>
+        <div class="chips chips-group" role="group" aria-label="Filter by group">
+          <button class="chip chip-group chip-secondary" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="chip chip-group chip-secondary" type="button" data-filter="watch" aria-pressed="false">Watch this week</button>
+          <button class="chip chip-group chip-secondary" type="button" data-filter="industry" aria-pressed="false">Industry leaders</button>
+          <button class="chip chip-group chip-secondary" type="button" data-filter="trail" aria-pressed="false">Trailblazers</button>
+          <button class="chip chip-group chip-secondary" type="button" data-filter="home" aria-pressed="false">Near home (Saudi/MENA)</button>
+        </div>
+      </div>
+      <div class="toolbar-side">
+        <div class="search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          <label class="visually-hidden" for="q" style="position:absolute;left:-9999px">Search by name, field, tags, domain, or country</label>
+          <input id="q" type="search" placeholder="Search name, field, tags, country…" autocomplete="off">
+        </div>
+        <div class="country-filter">
+          <label for="country">Country / region</label>
+          <select id="country">
+            <option value="all">All countries</option>
+          </select>
+        </div>
+        <p class="count" id="count"></p>
+      </div>
+    </div>
+  </div>
+
+  <main id="gallery">
+    <div class="wrap">
+      <div class="grid" id="grid"></div>
+    </div>
+  </main>
+
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="panel" id="panel" hidden role="dialog" aria-modal="true" aria-labelledby="cv-title">
+    <div class="panel-inner">
+      <div class="panel-top">
+        <p class="group-label" style="margin:0">Mini-CV</p>
+        <button class="close" id="close" type="button" aria-label="Close">×</button>
+      </div>
+      <div id="panel-body"></div>
+    </div>
+  </aside>
+
+  <footer>
+    <div class="wrap">
+      <h2>Communities she can join</h2>
+      <p class="foot-note">Clubs, societies, and programs — many with student tracks — across engineering, cybersecurity, AI, and product design.</p>
+      <nav class="communities" aria-label="Communities">
+        <a href="https://swe.org/" target="_blank" rel="noopener noreferrer">SWE</a>
+        <a href="https://swe.org/outreach/swenext/" target="_blank" rel="noopener noreferrer">SWENext</a>
+        <a href="https://www.asme.org/" target="_blank" rel="noopener noreferrer">ASME</a>
+        <a href="https://www.engineergirl.org/" target="_blank" rel="noopener noreferrer">EngineerGirl</a>
+        <a href="https://beacons.ai/swes" target="_blank" rel="noopener noreferrer">Saudi Women Engineers Society</a>
+        <a href="https://www.mawhiba.org" target="_blank" rel="noopener noreferrer">Mawhiba</a>
+        <a href="https://www.wicys.org/" target="_blank" rel="noopener noreferrer">WiCyS</a>
+        <a href="https://www.womenincybersecurity.me/" target="_blank" rel="noopener noreferrer">WiCSME</a>
+        <a href="https://blackhatmea.com/" target="_blank" rel="noopener noreferrer">Black Hat MEA</a>
+        <a href="https://girlswhocode.com/" target="_blank" rel="noopener noreferrer">Girls Who Code</a>
+        <a href="https://ai-4-all.org/" target="_blank" rel="noopener noreferrer">AI4ALL</a>
+        <a href="https://www.blackinai.org/" target="_blank" rel="noopener noreferrer">Black in AI</a>
+        <a href="https://www.ajl.org/" target="_blank" rel="noopener noreferrer">Algorithmic Justice League</a>
+        <a href="https://ladiesthatux.com/" target="_blank" rel="noopener noreferrer">Ladies that UX</a>
+        <a href="https://www.idsa.org/volunteer/chapters-sections/women-in-design-chapters/" target="_blank" rel="noopener noreferrer">IDSA Women in Design</a>
+        <a href="https://womenpm.org/" target="_blank" rel="noopener noreferrer">Women In Product</a>
+        <a href="https://www.aiga.org/" target="_blank" rel="noopener noreferrer">AIGA</a>
+        <a href="https://arabwic.org/" target="_blank" rel="noopener noreferrer">ArabWIC</a>
+        <a href="https://www.loreal.com/en/middle-east/articles/commitments/for-women-in-science-middle-east-program/" target="_blank" rel="noopener noreferrer">L’Oréal-UNESCO FWIS ME</a>
+      </nav>
+      <p class="colophon">Made as a private family gallery. Facts drawn from Wikipedia, university pages, official org bios (CISA, EFF, Black Hat MEA, KAUST, Stanford, TED), and other official public sources. LinkedIn links may require a login. Adjacent fields are tagged. Not a ranking.</p>
+    </div>
+  </footer>
+
+  <script src="profiles.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
