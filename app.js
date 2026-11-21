@@ -3,7 +3,6 @@
     watch: "Watch this week",
     industry: "Industry leaders",
     trail: "Trailblazers",
-    home: "Near home",
   };
 
   const DOMAINS = {
@@ -11,6 +10,9 @@
     cybersecurity: "Cybersecurity",
     ai: "Artificial Intelligence",
     "product-design": "Product Design",
+    marketing: "Marketing",
+    retail: "Retail",
+    it: "Information Technology",
   };
 
   const grid = document.getElementById("grid");

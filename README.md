@@ -1,6 +1,6 @@
 # She Builds the World
 
-A self-contained mini-CV gallery of public female role models across **mechanical engineering**, **cybersecurity**, **artificial intelligence**, and **product design**. Built as a starter look-up list for a girl in Riyadh — not a ranking.
+A self-contained mini-CV gallery of public female role models across **mechanical engineering**, **cybersecurity**, **artificial intelligence**, **product design**, **marketing**, **retail**, and **information technology (IT)**, drawn from around the world. Built as a starter look-up list for a girl in Riyadh — not a ranking.
 
 ## How to open
 
@@ -25,9 +25,9 @@ Then visit <http://127.0.0.1:8765/>.
 | `profiles.js` | Verified public facts only |
 | `portraits/` | Local official photos (no hotlinking; monogram fallback) |
 
-**Domain chips (primary):** All domains · Mechanical Engineering · Cybersecurity · Artificial Intelligence · Product Design  
+**Domain chips (primary):** All domains · Mechanical Engineering · Cybersecurity · Artificial Intelligence · Product Design · Marketing · Retail · Information Technology  
 
-**Group chips (secondary, within domain):** All · Watch this week · Industry leaders · Trailblazers · Near home (Saudi/MENA)
+**Group chips (secondary, within domain):** All · Watch this week · Industry leaders · Trailblazers. Use the country/region dropdown to find women from a specific place (e.g. GCC, Levant & Iraq, North Africa).
 
 Click a card for a side-panel mini-CV. Press **Esc** to close. Search covers name, field, tags, and domain.
 
@@ -49,6 +49,12 @@ Bios and bullets were taken from Wikipedia, NASA, MIT, Stanford, KAUST, ASME, Bl
 - **Yes — looking into Africa and Asia.** Added 29 verified profiles focused on sub-Saharan Africa and Asia (plus existing MENA coverage under Near home).
 - New `Africa` region in the country/region filter (alongside `Asia`, GCC, Levant & Iraq, North Africa, Americas, Europe, Oceania).
 - Last updated: 5 Nov 2026. Total profiles: 166.
+
+## Update — 21 Nov 2026
+
+- Worldwide focus: the "Near home (Saudi/MENA)" group filter was removed; its 80 profiles were reassigned to Industry leaders, Trailblazers or Watch this week. Middle East women remain findable via the country/region filter.
+- Three new domains: Marketing, Retail, Information Technology, seeded with 23 verified profiles.
+- Last updated: 21 Nov 2026. Total profiles: 189.
 
 ## Live site & updates
 

@@ -1,5 +1,5 @@
 /* Verified public profiles only. No invented awards, titles, or URLs. */
-/* Last updated: 2026-11-05. Africa + Asia expansion. Fields: country/region on all profiles. */
+/* Last updated: 2026-11-21. Worldwide; added Marketing, Retail and IT domains. Fields: country/region on all profiles. */
 const PROFILES = [
   {
     "id": "xyla-foxlin",
@@ -771,7 +771,7 @@ const PROFILES = [
     "id": "deanna-lacoste",
     "name": "Dr. Deanna Lacoste",
     "slug": "deanna-lacoste",
-    "group": "home",
+    "group": "industry",
     "domain": "mechanical-engineering",
     "field": "Plasma-assisted combustion",
     "tags": [
@@ -812,7 +812,7 @@ const PROFILES = [
     "id": "mayada-alhashem",
     "name": "Mayada Alhashem",
     "slug": "mayada-alhashem",
-    "group": "home",
+    "group": "industry",
     "domain": "mechanical-engineering",
     "field": "Artificial lift",
     "tags": [
@@ -849,7 +849,7 @@ const PROFILES = [
     "id": "ghala-aldossary",
     "name": "Ghala Aldossary",
     "slug": "ghala-aldossary",
-    "group": "home",
+    "group": "watch",
     "domain": "mechanical-engineering",
     "field": "Community building",
     "tags": [
@@ -885,7 +885,7 @@ const PROFILES = [
     "id": "sultana-alsultan",
     "name": "Sultana Alsultan",
     "slug": "sultana-alsultan",
-    "group": "home",
+    "group": "watch",
     "domain": "mechanical-engineering",
     "field": "Mechanical engineering (early career)",
     "tags": [
@@ -919,7 +919,7 @@ const PROFILES = [
     "id": "zahra-aloqili",
     "name": "Zahra Aloqili",
     "slug": "zahra-aloqili",
-    "group": "home",
+    "group": "watch",
     "domain": "mechanical-engineering",
     "field": "Mechanical engineering (early career)",
     "tags": [
@@ -954,7 +954,7 @@ const PROFILES = [
     "id": "zainab-alayesh",
     "name": "Zainab Alayesh",
     "slug": "zainab-alayesh",
-    "group": "home",
+    "group": "watch",
     "domain": "mechanical-engineering",
     "field": "Mechanical engineering research",
     "tags": [
@@ -986,7 +986,7 @@ const PROFILES = [
     "id": "sarah-alotaibi",
     "name": "Sarah Alotaibi",
     "slug": "sarah-alotaibi",
-    "group": "home",
+    "group": "industry",
     "domain": "mechanical-engineering",
     "field": "Pipelines & asset integrity",
     "tags": [
@@ -1274,7 +1274,7 @@ const PROFILES = [
     "id": "reem-faraj-al-shammari",
     "name": "Dr. Reem Faraj Al-Shammari",
     "slug": "reem-faraj-al-shammari",
-    "group": "home",
+    "group": "industry",
     "domain": "cybersecurity",
     "field": "Cybersecurity community / MENA leadership",
     "tags": [
@@ -1320,7 +1320,7 @@ const PROFILES = [
     "id": "samiyah-alanazi",
     "name": "Samiyah Alanazi",
     "slug": "samiyah-alanazi",
-    "group": "home",
+    "group": "industry",
     "domain": "cybersecurity",
     "field": "Cybersecurity practice & community (Saudi Arabia)",
     "tags": [
@@ -1479,7 +1479,7 @@ const PROFILES = [
     "id": "rana-el-kaliouby",
     "name": "Rana el Kaliouby",
     "slug": "rana-el-kaliouby",
-    "group": "home",
+    "group": "trail",
     "domain": "ai",
     "field": "Emotion AI / affective computing",
     "tags": [
@@ -1520,7 +1520,7 @@ const PROFILES = [
     "id": "rabab-alomairy",
     "name": "Rabab Alomairy",
     "slug": "rabab-alomairy",
-    "group": "home",
+    "group": "trail",
     "domain": "ai",
     "field": "High-performance computing for AI",
     "tags": [
@@ -1770,7 +1770,7 @@ const PROFILES = [
     "id": "fatmah-baothman",
     "name": "Dr. Fatmah Baothman",
     "slug": "fatmah-baothman",
-    "group": "home",
+    "group": "industry",
     "domain": "ai",
     "field": "AI research & academic leadership (Saudi Arabia)",
     "tags": [
@@ -1808,7 +1808,7 @@ const PROFILES = [
     "id": "latifa-al-abdulkarim",
     "name": "Dr. Latifa Al-Abdulkarim",
     "slug": "latifa-al-abdulkarim",
-    "group": "home",
+    "group": "industry",
     "domain": "ai",
     "field": "AI ethics, legal AI, explainable AI",
     "tags": [
@@ -2414,7 +2414,7 @@ const PROFILES = [
     "adjacentNote": "Engineering leadership (Aramco/NEOM)",
     "photo": null,
     "slug": "nabilah-al-tunisi",
-    "group": "home",
+    "group": "industry",
     "country": "Saudi Arabia",
     "region": "GCC"
   },
@@ -2463,7 +2463,7 @@ const PROFILES = [
     "adjacentNote": "Aerospace",
     "photo": "portraits/mishaal-ashemimry.jpg",
     "slug": "mishaal-ashemimry",
-    "group": "home",
+    "group": "trail",
     "country": "Saudi Arabia",
     "region": "GCC"
   },
@@ -2498,7 +2498,7 @@ const PROFILES = [
     ],
     "photo": "portraits/safiya-alhashmi.jpg",
     "slug": "safiya-alhashmi",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "United Arab Emirates",
@@ -2543,7 +2543,7 @@ const PROFILES = [
     "adjacentNote": "Space / computer engineering",
     "photo": "portraits/sarah-al-amiri.jpg",
     "slug": "sarah-al-amiri",
-    "group": "home",
+    "group": "trail",
     "country": "United Arab Emirates",
     "region": "GCC"
   },
@@ -2584,7 +2584,7 @@ const PROFILES = [
     "adjacentNote": "Space flight / biomedical",
     "photo": "portraits/rayyanah-barnawi.jpg",
     "slug": "rayyanah-barnawi",
-    "group": "home",
+    "group": "trail",
     "country": "Saudi Arabia",
     "region": "GCC"
   },
@@ -2625,7 +2625,7 @@ const PROFILES = [
     ],
     "photo": null,
     "slug": "arwa-alhamad",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Saudi Arabia",
@@ -2666,7 +2666,7 @@ const PROFILES = [
     ],
     "photo": null,
     "slug": "salwa-alessa",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Saudi Arabia",
@@ -2706,7 +2706,7 @@ const PROFILES = [
     ],
     "photo": null,
     "slug": "rasha-abu-alsaud",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Saudi Arabia",
@@ -2748,7 +2748,7 @@ const PROFILES = [
     ],
     "photo": null,
     "slug": "fatemah-alharbi",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Saudi Arabia",
@@ -2788,7 +2788,7 @@ const PROFILES = [
     ],
     "photo": "portraits/abeer-khedr.jpg",
     "slug": "abeer-khedr",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Egypt",
@@ -2824,7 +2824,7 @@ const PROFILES = [
     ],
     "photo": null,
     "slug": "salma-hafez",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Egypt",
@@ -2866,7 +2866,7 @@ const PROFILES = [
     ],
     "photo": null,
     "slug": "noora-fetais",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Qatar",
@@ -2903,7 +2903,7 @@ const PROFILES = [
     ],
     "photo": null,
     "slug": "aziza-al-rashdi",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Oman",
@@ -2944,7 +2944,7 @@ const PROFILES = [
     ],
     "photo": "portraits/layal-jebran.jpg",
     "slug": "layal-jebran",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Lebanon",
@@ -2991,7 +2991,7 @@ const PROFILES = [
     ],
     "photo": "portraits/hebah-elgibreen.jpg",
     "slug": "hebah-elgibreen",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Saudi Arabia",
@@ -3033,7 +3033,7 @@ const PROFILES = [
     ],
     "photo": null,
     "slug": "nora-altwairesh",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Saudi Arabia",
@@ -3075,7 +3075,7 @@ const PROFILES = [
     ],
     "photo": null,
     "slug": "sarah-alhumoud",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Saudi Arabia",
@@ -3115,7 +3115,7 @@ const PROFILES = [
     ],
     "photo": null,
     "slug": "huda-alamri",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Saudi Arabia",
@@ -3156,7 +3156,7 @@ const PROFILES = [
     ],
     "photo": null,
     "slug": "hanan-aldarmaki",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "United Arab Emirates",
@@ -3196,7 +3196,7 @@ const PROFILES = [
     ],
     "photo": null,
     "slug": "lina-madadha",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Jordan",
@@ -3235,7 +3235,7 @@ const PROFILES = [
     "adjacentNote": "Bioelectronics / hardware–AI",
     "photo": "portraits/noora-almarri.jpg",
     "slug": "noora-almarri",
-    "group": "home",
+    "group": "watch",
     "country": "United Arab Emirates",
     "region": "GCC"
   },
@@ -3279,7 +3279,7 @@ const PROFILES = [
     ],
     "photo": null,
     "slug": "abeer-alrabiah",
-    "group": "home",
+    "group": "industry",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Saudi Arabia",
@@ -3322,7 +3322,7 @@ const PROFILES = [
     "adjacentNote": "Design sector leadership",
     "photo": "portraits/sumayah-al-solaiman.jpg",
     "slug": "sumayah-al-solaiman",
-    "group": "home",
+    "group": "trail",
     "country": "Saudi Arabia",
     "region": "GCC"
   },
@@ -3364,7 +3364,7 @@ const PROFILES = [
     "adjacentNote": "Biotech / medical diagnostics",
     "photo": "portraits/hayat-sindi.jpg",
     "slug": "hayat-sindi",
-    "group": "home",
+    "group": "trail",
     "country": "Saudi Arabia",
     "region": "GCC"
   },
@@ -3397,7 +3397,7 @@ const PROFILES = [
     ],
     "photo": null,
     "slug": "ghina-aljuraiban",
-    "group": "home",
+    "group": "watch",
     "adjacent": false,
     "adjacentNote": null,
     "country": "Saudi Arabia",
@@ -3407,7 +3407,7 @@ const PROFILES = [
     "id": "esraa-fakeih",
     "name": "Dr. Esraa Fakeih",
     "slug": "esraa-fakeih",
-    "group": "home",
+    "group": "industry",
     "domain": "product-design",
     "field": "Femtech · biosensors · product",
     "tags": [
@@ -3454,7 +3454,7 @@ const PROFILES = [
     "id": "walaa-khushaim",
     "name": "Dr. Walaa Khushaim",
     "slug": "walaa-khushaim",
-    "group": "home",
+    "group": "industry",
     "domain": "product-design",
     "field": "Femtech · bioengineering · biosensors",
     "tags": [
@@ -3501,7 +3501,7 @@ const PROFILES = [
     "id": "wedyan-babatain",
     "name": "Dr. Wedyan Babatain",
     "slug": "wedyan-babatain",
-    "group": "home",
+    "group": "watch",
     "domain": "mechanical-engineering",
     "field": "Soft electronics · wearables · liquid metal",
     "tags": [
@@ -3544,7 +3544,7 @@ const PROFILES = [
     "id": "aysha-alshehhi",
     "name": "Aysha AlShehhi",
     "slug": "aysha-alshehhi",
-    "group": "home",
+    "group": "watch",
     "domain": "mechanical-engineering",
     "field": "Robotics · aerospace maintenance",
     "tags": [
@@ -3585,7 +3585,7 @@ const PROFILES = [
     "id": "ohood-al-ghadani",
     "name": "Ohood Al-Ghadani",
     "slug": "ohood-al-ghadani",
-    "group": "home",
+    "group": "watch",
     "domain": "product-design",
     "field": "Packaging design · post-harvest food security",
     "tags": [
@@ -3621,7 +3621,7 @@ const PROFILES = [
     "id": "zeinab-saeed",
     "name": "Zeinab Saeed",
     "slug": "zeinab-saeed",
-    "group": "home",
+    "group": "watch",
     "domain": "product-design",
     "field": "Materials · plastic upcycling · sustainable products",
     "tags": [
@@ -3658,7 +3658,7 @@ const PROFILES = [
     "id": "habiba-alsafar",
     "name": "Prof. Habiba Alsafar",
     "slug": "habiba-alsafar",
-    "group": "home",
+    "group": "industry",
     "domain": "mechanical-engineering",
     "field": "Biomedical engineering · genetics · medicine leadership",
     "tags": [
@@ -3697,7 +3697,7 @@ const PROFILES = [
     "id": "hessa-alfalahi",
     "name": "Dr. Hessa Alfalahi",
     "slug": "hessa-alfalahi",
-    "group": "home",
+    "group": "watch",
     "domain": "ai",
     "field": "Biomedical AI · digital phenotyping",
     "tags": [
@@ -3739,7 +3739,7 @@ const PROFILES = [
     "id": "anees-ara",
     "name": "Dr. Anees Ara",
     "slug": "anees-ara",
-    "group": "home",
+    "group": "industry",
     "domain": "cybersecurity",
     "field": "Network security · IoT · cyber-physical systems",
     "tags": [
@@ -3786,7 +3786,7 @@ const PROFILES = [
     "id": "israa-othman",
     "name": "Dr. Israa Othman",
     "slug": "israa-othman",
-    "group": "home",
+    "group": "watch",
     "domain": "mechanical-engineering",
     "field": "Nanomaterials · photocatalysis · sustainable energy",
     "tags": [
@@ -3828,7 +3828,7 @@ const PROFILES = [
     "id": "jawaher-alameri",
     "name": "Jawaher Alameri",
     "slug": "jawaher-alameri",
-    "group": "home",
+    "group": "industry",
     "domain": "mechanical-engineering",
     "field": "High-energy laser systems",
     "tags": [
@@ -3866,7 +3866,7 @@ const PROFILES = [
     "id": "maya-nasr",
     "name": "Dr. Maya Nasr",
     "slug": "maya-nasr",
-    "group": "home",
+    "group": "industry",
     "domain": "mechanical-engineering",
     "field": "Aerospace · Mars ISRU · MethaneSAT",
     "tags": [
@@ -3909,7 +3909,7 @@ const PROFILES = [
     "id": "mariam-ouda",
     "name": "Dr. Mariam Ouda",
     "slug": "mariam-ouda",
-    "group": "home",
+    "group": "watch",
     "domain": "mechanical-engineering",
     "field": "Graphene membranes · water treatment",
     "tags": [
@@ -3948,7 +3948,7 @@ const PROFILES = [
     "id": "aya-ghazal",
     "name": "Aya Ghazal",
     "slug": "aya-ghazal",
-    "group": "home",
+    "group": "watch",
     "domain": "mechanical-engineering",
     "field": "Solar membrane distillation",
     "tags": [
@@ -3986,7 +3986,7 @@ const PROFILES = [
     "id": "bushra-alahmadi",
     "name": "Dr. Bushra AlAhmadi",
     "slug": "bushra-alahmadi",
-    "group": "home",
+    "group": "industry",
     "domain": "cybersecurity",
     "field": "Malware detection · SOC ML · national cyber AI",
     "tags": [
@@ -4030,7 +4030,7 @@ const PROFILES = [
     "id": "basma-ahmadush",
     "name": "Basma Ahmadush",
     "slug": "basma-ahmadush",
-    "group": "home",
+    "group": "industry",
     "domain": "cybersecurity",
     "field": "Network security · women-in-cyber community",
     "tags": [
@@ -4073,7 +4073,7 @@ const PROFILES = [
     "id": "sara-al-kindi",
     "name": "Sara Al Kindi",
     "slug": "sara-al-kindi",
-    "group": "home",
+    "group": "industry",
     "domain": "cybersecurity",
     "field": "OT/IT cyber defense · energy",
     "tags": [
@@ -4112,7 +4112,7 @@ const PROFILES = [
     "id": "ghita-mezzour",
     "name": "Dr. Ghita Mezzour",
     "slug": "ghita-mezzour",
-    "group": "home",
+    "group": "trail",
     "domain": "cybersecurity",
     "field": "Cyber threat research · national digital policy",
     "tags": [
@@ -4155,7 +4155,7 @@ const PROFILES = [
     "id": "marianne-azer",
     "name": "Prof. Marianne Azer",
     "slug": "marianne-azer",
-    "group": "home",
+    "group": "industry",
     "domain": "cybersecurity",
     "field": "Cybersecurity policy · networks · governance",
     "tags": [
@@ -4194,7 +4194,7 @@ const PROFILES = [
     "id": "areeb-alowisheq",
     "name": "Dr. Areeb Alowisheq",
     "slug": "areeb-alowisheq",
-    "group": "home",
+    "group": "industry",
     "domain": "ai",
     "field": "Arabic NLP · national LLMs",
     "tags": [
@@ -4241,7 +4241,7 @@ const PROFILES = [
     "id": "amal-el-fallah-seghrouchni",
     "name": "Prof. Amal El Fallah Seghrouchni",
     "slug": "amal-el-fallah-seghrouchni",
-    "group": "home",
+    "group": "trail",
     "domain": "ai",
     "field": "Multi-agent systems · distributed AI",
     "tags": [
@@ -4290,7 +4290,7 @@ const PROFILES = [
     "id": "nazek-el-atab",
     "name": "Prof. Nazek El-Atab",
     "slug": "nazek-el-atab",
-    "group": "home",
+    "group": "industry",
     "domain": "ai",
     "field": "AI hardware · neuromorphic memory · wearables",
     "tags": [
@@ -4330,7 +4330,7 @@ const PROFILES = [
     "id": "sana-odeh",
     "name": "Prof. Sana Odeh",
     "slug": "sana-odeh",
-    "group": "home",
+    "group": "trail",
     "domain": "ai",
     "field": "CS education · ArabWIC community",
     "tags": [
@@ -4373,7 +4373,7 @@ const PROFILES = [
     "id": "mirna-arif",
     "name": "Mirna Arif",
     "slug": "mirna-arif",
-    "group": "home",
+    "group": "industry",
     "domain": "ai",
     "field": "National AI deployment · tech leadership",
     "tags": [
@@ -4411,7 +4411,7 @@ const PROFILES = [
     "id": "abeer-seikaly",
     "name": "Abeer Seikaly",
     "slug": "abeer-seikaly",
-    "group": "home",
+    "group": "industry",
     "domain": "product-design",
     "field": "Structural textiles · shelter design",
     "tags": [
@@ -4454,7 +4454,7 @@ const PROFILES = [
     "id": "aljoud-lootah",
     "name": "Aljoud Lootah",
     "slug": "aljoud-lootah",
-    "group": "home",
+    "group": "industry",
     "domain": "product-design",
     "field": "Furniture · collectible product design",
     "tags": [
@@ -4495,7 +4495,7 @@ const PROFILES = [
     "id": "sahar-madanat-haddad",
     "name": "Sahar Madanat Haddad",
     "slug": "sahar-madanat-haddad",
-    "group": "home",
+    "group": "industry",
     "domain": "product-design",
     "field": "Industrial · medical · furniture design",
     "tags": [
@@ -4538,7 +4538,7 @@ const PROFILES = [
     "id": "aljawharah-alsharif",
     "name": "Aljawharah Alsharif",
     "slug": "aljawharah-alsharif",
-    "group": "home",
+    "group": "watch",
     "domain": "product-design",
     "field": "Wearable biopatches · flexible electronics",
     "tags": [
@@ -4575,7 +4575,7 @@ const PROFILES = [
     "id": "nada-debs",
     "name": "Nada Debs",
     "slug": "nada-debs",
-    "group": "home",
+    "group": "industry",
     "domain": "product-design",
     "field": "Furniture · craft-led product design",
     "tags": [
@@ -4617,7 +4617,7 @@ const PROFILES = [
     "id": "dima-srouji",
     "name": "Dima Srouji",
     "slug": "dima-srouji",
-    "group": "home",
+    "group": "industry",
     "domain": "product-design",
     "field": "Glass collections · craft product · design research",
     "tags": [
@@ -4660,7 +4660,7 @@ const PROFILES = [
     "id": "nora-al-matrooshi",
     "name": "Nora Al Matrooshi",
     "slug": "nora-al-matrooshi",
-    "group": "home",
+    "group": "trail",
     "domain": "mechanical-engineering",
     "field": "Mechanical engineering & spaceflight",
     "tags": [
@@ -4693,7 +4693,7 @@ const PROFILES = [
     "id": "malak-al-nory",
     "name": "Dr. Malak Al-Nory",
     "slug": "malak-al-nory",
-    "group": "home",
+    "group": "industry",
     "domain": "mechanical-engineering",
     "field": "Systems engineering, water & energy",
     "tags": [
@@ -4872,7 +4872,7 @@ const PROFILES = [
     "id": "hessa-al-jaber",
     "name": "Hessa Al-Jaber",
     "slug": "hessa-al-jaber",
-    "group": "home",
+    "group": "trail",
     "domain": "cybersecurity",
     "field": "ICT policy & digital security",
     "tags": [
@@ -4906,7 +4906,7 @@ const PROFILES = [
     "id": "najwa-aaraj",
     "name": "Dr. Najwa Aaraj",
     "slug": "najwa-aaraj",
-    "group": "home",
+    "group": "industry",
     "domain": "cybersecurity",
     "field": "Applied cryptography",
     "tags": [
@@ -4949,7 +4949,7 @@ const PROFILES = [
     "id": "hoda-al-khzaimi",
     "name": "Dr. Hoda Al Khzaimi",
     "slug": "hoda-al-khzaimi",
-    "group": "home",
+    "group": "industry",
     "domain": "cybersecurity",
     "field": "Cryptology & cryptanalysis",
     "tags": [
@@ -5060,7 +5060,7 @@ const PROFILES = [
     "id": "mona-diab",
     "name": "Prof. Mona Diab",
     "slug": "mona-diab",
-    "group": "home",
+    "group": "industry",
     "domain": "ai",
     "field": "Arabic NLP & computational linguistics",
     "tags": [
@@ -5094,7 +5094,7 @@ const PROFILES = [
     "id": "deemah-alyahya",
     "name": "Deemah AlYahya",
     "slug": "deemah-alyahya",
-    "group": "home",
+    "group": "trail",
     "domain": "ai",
     "field": "Digital economy & tech diplomacy",
     "tags": [
@@ -5136,7 +5136,7 @@ const PROFILES = [
     "id": "balsam-alkouz",
     "name": "Dr. Balsam AlKouz",
     "slug": "balsam-alkouz",
-    "group": "home",
+    "group": "watch",
     "domain": "ai",
     "field": "Drone swarms & services computing",
     "tags": [
@@ -5236,7 +5236,7 @@ const PROFILES = [
     "id": "zaha-hadid",
     "name": "Dame Zaha Hadid",
     "slug": "zaha-hadid",
-    "group": "home",
+    "group": "trail",
     "domain": "product-design",
     "field": "Architecture, furniture & product design",
     "tags": [
@@ -5269,7 +5269,7 @@ const PROFILES = [
     "id": "lina-ghotmeh",
     "name": "Lina Ghotmeh",
     "slug": "lina-ghotmeh",
-    "group": "home",
+    "group": "industry",
     "domain": "product-design",
     "field": "Architecture & material design",
     "tags": [
@@ -5305,7 +5305,7 @@ const PROFILES = [
     "id": "bahia-shehab",
     "name": "Bahia Shehab",
     "slug": "bahia-shehab",
-    "group": "home",
+    "group": "industry",
     "domain": "product-design",
     "field": "Arabic type & graphic design",
     "tags": [
@@ -5338,7 +5338,7 @@ const PROFILES = [
     "id": "razan-bahabri",
     "name": "Razan Salem Bahabri",
     "slug": "razan-bahabri",
-    "group": "home",
+    "group": "industry",
     "domain": "product-design",
     "field": "Medical device design",
     "tags": [
@@ -6638,5 +6638,876 @@ const PROFILES = [
     "region": "Asia",
     "addedOn": "2026-11-05",
     "adjacentNote": "Architecture / design"
+  },
+  {
+    "id": "bozoma-saint-john",
+    "name": "Bozoma Saint John",
+    "slug": "bozoma-saint-john",
+    "group": "industry",
+    "domain": "marketing",
+    "field": "Brand & entertainment marketing",
+    "tags": [
+      "CMO",
+      "Brand"
+    ],
+    "role": "Marketing executive; former CMO, Netflix (2020–2022)",
+    "bio": "Ghanaian-American marketing executive who led brand and marketing at PepsiCo, Apple Music, Uber, Endeavor and Netflix, where she was chief marketing officer from August 2020 to March 2022.",
+    "experience": [
+      "Chief Marketing Officer, Netflix (Aug 2020 – Mar 2022).",
+      "Chief Marketing Officer, Endeavor (2018–2020).",
+      "Chief Brand Officer, Uber (2017–2018).",
+      "Head of global consumer marketing for iTunes and Apple Music, after Apple acquired Beats Music (2014–2017).",
+      "PepsiCo (2005–2014), rising to head of music and entertainment marketing."
+    ],
+    "achievements": [
+      "Her 2016 Apple WWDC stage presentation of Apple Music became a widely noted breakthrough moment."
+    ],
+    "whyRoleModel": "Proof that big, bold storytelling can move some of the world's most famous brands.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bozoma_Saint_John"
+      },
+      {
+        "label": "Official site",
+        "url": "https://bozomasaintjohn.com/about/"
+      }
+    ],
+    "photo": "portraits/bozoma-saint-john.jpg",
+    "adjacent": false,
+    "country": "Ghana / United States",
+    "region": "Americas",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "shelly-lazarus",
+    "name": "Shelly Lazarus",
+    "slug": "shelly-lazarus",
+    "group": "trail",
+    "domain": "marketing",
+    "field": "Advertising leadership",
+    "tags": [
+      "Advertising",
+      "CEO"
+    ],
+    "role": "Chairman emerita, Ogilvy & Mather; former CEO (1996–2008)",
+    "bio": "American advertising executive who joined Ogilvy & Mather in 1971 and rose to lead the global agency as CEO from 1996 to 2008 and chairman until 2012.",
+    "experience": [
+      "Joined Ogilvy & Mather in 1971; President of its U.S. direct marketing business (1989).",
+      "President of Ogilvy & Mather New York, then North America.",
+      "President & COO (1995), CEO (1996–2008), Chairman (1997–2012), then Chairman emerita."
+    ],
+    "achievements": [
+      "Led one of the world's best-known advertising networks for more than a decade.",
+      "Has served on boards including General Electric and Merck & Co."
+    ],
+    "whyRoleModel": "Started in the agency and climbed all the way to the top of it.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Shelly_Lazarus"
+      }
+    ],
+    "photo": "portraits/shelly-lazarus.jpg",
+    "adjacent": false,
+    "country": "United States",
+    "region": "Americas",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "cindy-gallop",
+    "name": "Cindy Gallop",
+    "slug": "cindy-gallop",
+    "group": "industry",
+    "domain": "marketing",
+    "field": "Advertising & brand innovation",
+    "tags": [
+      "Advertising",
+      "Founder"
+    ],
+    "role": "Brand and business innovation consultant; founder of the US branch of Bartle Bogle Hegarty (BBH)",
+    "bio": "English advertising leader who worked on accounts such as Coca-Cola, Ray-Ban and Polaroid at BBH London, helped start BBH Asia Pacific, and founded and chaired BBH's US office before launching her own consultancy.",
+    "experience": [
+      "Bartle Bogle Hegarty, London (from 1989): Coca-Cola, Ray-Ban, Polaroid.",
+      "Helped start BBH Asia Pacific (1996).",
+      "Founded BBH's US branch (1998) and served as chair.",
+      "Founded Cindy Gallop LLC, a brand and business innovation consultancy (2006)."
+    ],
+    "achievements": [
+      "Advertising Woman of the Year, Advertising Women of New York (2003)."
+    ],
+    "whyRoleModel": "Built an agency office from scratch in a new country and never stopped challenging how business is done.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cindy_Gallop"
+      }
+    ],
+    "photo": "portraits/cindy-gallop.jpg",
+    "adjacent": false,
+    "country": "United Kingdom / United States",
+    "region": "Europe",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "mary-wells-lawrence",
+    "name": "Mary Wells Lawrence",
+    "slug": "mary-wells-lawrence",
+    "group": "trail",
+    "domain": "marketing",
+    "field": "Advertising",
+    "tags": [
+      "Advertising",
+      "Pioneer"
+    ],
+    "role": "Founding president, Wells Rich Greene (1928–2024)",
+    "bio": "American advertising executive who founded the creative agency Wells, Rich, Greene and became the first female CEO of a company listed on the New York Stock Exchange.",
+    "experience": [
+      "Macy's fashion advertising manager (by 1952).",
+      "Founding president, Wells, Rich, Greene."
+    ],
+    "achievements": [
+      "First female CEO of a company listed on the New York Stock Exchange.",
+      "Lion of St. Mark for lifetime achievement, Cannes Lions Festival of Creativity (2020)."
+    ],
+    "whyRoleModel": "Opened the door to the corner office for women in business.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mary_Wells_Lawrence"
+      }
+    ],
+    "photo": "portraits/mary-wells-lawrence.jpg",
+    "adjacent": false,
+    "country": "United States",
+    "region": "Americas",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "huda-kattan",
+    "name": "Huda Kattan",
+    "slug": "huda-kattan",
+    "group": "industry",
+    "domain": "marketing",
+    "field": "Social-media & beauty brand building",
+    "tags": [
+      "Digital marketing",
+      "Founder"
+    ],
+    "role": "Founder, Huda Beauty (Dubai)",
+    "bio": "Iraqi-American entrepreneur who moved to Dubai in 2008, turned her makeup-tutorial blog into the Dubai-based cosmetics brand Huda Beauty, and became one of the world's most-followed beauty creators.",
+    "experience": [
+      "Started the Huda Beauty blog of makeup tutorials and tips.",
+      "Launched her first product, a false-eyelash line, through Sephora.",
+      "Founder of the Huda Beauty brand, based in Dubai."
+    ],
+    "achievements": [
+      "Named one of the ten most powerful influencers in beauty by Forbes (2017).",
+      "About 56 million Instagram followers as of 2026."
+    ],
+    "whyRoleModel": "Turned a blog and a phone camera into a global brand built in the Gulf.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Huda_Kattan"
+      }
+    ],
+    "photo": "portraits/huda-kattan.jpg",
+    "adjacent": false,
+    "country": "UAE / United States",
+    "region": "GCC",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "ghada-alrumayan",
+    "name": "Ghada Othman Alrumayan",
+    "slug": "ghada-alrumayan",
+    "group": "industry",
+    "domain": "marketing",
+    "field": "Corporate marketing & communications",
+    "tags": [
+      "CMO",
+      "Saudi"
+    ],
+    "role": "Group Chief Marketing & Communications Officer, ROSHN Group",
+    "bio": "Marketing leader based in Saudi Arabia who joined ROSHN Group in 2021 and led its November 2024 rebrand as a multi-asset developer spanning sports, hospitality, healthcare and education.",
+    "experience": [
+      "Group Chief Marketing & Communications Officer, ROSHN Group (joined 2021).",
+      "Development committee member, ROSHN Group."
+    ],
+    "achievements": [
+      "Led ROSHN Group's 2024 rebranding.",
+      "Led partnerships and sponsorships including the Future Investment Initiative, World Economic Forum, Formula 1, LIV Golf and the ROSHN Saudi League.",
+      "Ranked first in Forbes Middle East's 10 MENA Women Making Their Mark in Marketing (2026)."
+    ],
+    "whyRoleModel": "A woman steering the brand of one of the Kingdom's biggest developers.",
+    "links": [
+      {
+        "label": "Forbes Middle East",
+        "url": "https://www.forbesmiddleeast.com/lists/the-middle-easts-most-influential-cmos/ghada-othman-alrumayan/"
+      },
+      {
+        "label": "Forbes ME list (2026)",
+        "url": "https://www.forbesmiddleeast.com/lists/10-mena-women-making-their-mark-in-marketing/"
+      }
+    ],
+    "photo": "",
+    "adjacent": false,
+    "country": "Saudi Arabia",
+    "region": "GCC",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "karma-al-taher",
+    "name": "Karma Al-Taher",
+    "slug": "karma-al-taher",
+    "group": "industry",
+    "domain": "marketing",
+    "field": "Brand, marketing & communications",
+    "tags": [
+      "CMO",
+      "Real estate"
+    ],
+    "role": "Chief Brand, Marketing & Communications Officer, IHCC (Saudi Arabia)",
+    "bio": "Jordanian marketing executive based in Saudi Arabia who leads brand, marketing and communications for IHCC and Sultan Batterjee Holding, after senior roles at Majid Al Futtaim, Alef Group and Meraas.",
+    "experience": [
+      "Chief Brand, Marketing & Communications Officer, IHCC (since 2021), also overseeing Sultan Batterjee Holding, Lifestyle Developers and GREENER by IHCC.",
+      "Previously led marketing and communications at Majid Al Futtaim, Alef Group and Dubai Holding's Meraas."
+    ],
+    "achievements": [
+      "Directed the sell-out of Phase 1 of THE STANDARD branded residences at Cityscape Saudi Arabia.",
+      "Named in Forbes Middle East's The Middle East's Most Influential CMOs."
+    ],
+    "whyRoleModel": "Shows how marketing careers can grow across the whole Gulf region.",
+    "links": [
+      {
+        "label": "Forbes Middle East",
+        "url": "https://www.forbesmiddleeast.com/lists/the-middle-easts-most-influential-cmos/karma-al-taher-2/"
+      }
+    ],
+    "photo": "",
+    "adjacent": false,
+    "country": "Jordan / Saudi Arabia",
+    "region": "Levant & Iraq",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "reema-bint-bandar",
+    "name": "Princess Reema bint Bandar Al Saud",
+    "slug": "reema-bint-bandar",
+    "group": "trail",
+    "domain": "retail",
+    "field": "Luxury retail & leadership",
+    "tags": [
+      "Retail CEO",
+      "Diplomat"
+    ],
+    "role": "Saudi Ambassador to the United States; former CEO, Alfa International (Harvey Nichols Riyadh)",
+    "bio": "Saudi business leader who ran luxury retail before becoming the Kingdom's first woman ambassador. As CEO of the company operating Harvey Nichols Riyadh she worked to bring more women into retail jobs.",
+    "experience": [
+      "CEO, Alfa International Company (2007–2015), the multi-brand luxury retailer that operated Harvey Nichols Riyadh.",
+      "CEO, Al Hama LLC, a luxury retail company.",
+      "Co-founder, Yibreen women's gym and spa.",
+      "Saudi Ambassador to the United States (since 2019), with the rank of minister."
+    ],
+    "achievements": [
+      "Led the recruitment of women into retail at Harvey Nichols Riyadh, working with the Ministry of Labor on supporting policies.",
+      "Introduced childcare for employees with young children and transport stipends for women staff.",
+      "First woman ambassador in Saudi Arabia's history."
+    ],
+    "whyRoleModel": "Opened retail jobs to Saudi women, then opened doors in diplomacy.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Reema_bint_Bandar_Al_Saud"
+      }
+    ],
+    "photo": "portraits/reema-bint-bandar.jpg",
+    "adjacent": false,
+    "country": "Saudi Arabia",
+    "region": "GCC",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "falguni-nayar",
+    "name": "Falguni Nayar",
+    "slug": "falguni-nayar",
+    "group": "industry",
+    "domain": "retail",
+    "field": "Beauty e-commerce & retail",
+    "tags": [
+      "Founder",
+      "E-commerce"
+    ],
+    "role": "Founder, Executive Chairperson, MD & CEO, Nykaa",
+    "bio": "Indian investment banker turned founder who started the beauty and lifestyle retailer Nykaa in 2012 with $2 million of her own money and took it public in 2021.",
+    "experience": [
+      "Kotak Mahindra Group (1993–2012); Managing Director, Kotak Mahindra Capital (from 2005).",
+      "Founded Nykaa (FSN E-Commerce Ventures) in April 2012.",
+      "Reappointed Executive Chairperson, MD & CEO of Nykaa for 2026–2031."
+    ],
+    "achievements": [
+      "Nykaa listed at a roughly $13 billion valuation in November 2021.",
+      "EY Entrepreneur of the Year, India (2021).",
+      "Became India's wealthiest self-made woman after the listing."
+    ],
+    "whyRoleModel": "Left a top banking career to build one of India's best-known retailers.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Falguni_Nayar"
+      },
+      {
+        "label": "Nykaa board",
+        "url": "https://www.nykaa.com/board-of-director-falguni-nayar"
+      },
+      {
+        "label": "NSE filing (2026 reappointment)",
+        "url": "https://nsearchives.nseindia.com/corporate/NYKAA_07112025162635_Reappointment.pdf"
+      }
+    ],
+    "photo": "",
+    "adjacent": false,
+    "country": "India",
+    "region": "Asia",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "vineeta-singh",
+    "name": "Vineeta Singh",
+    "slug": "vineeta-singh",
+    "group": "industry",
+    "domain": "retail",
+    "field": "D2C beauty retail",
+    "tags": [
+      "Founder",
+      "Brand"
+    ],
+    "role": "Co-founder & CEO, SUGAR Cosmetics; investor on Shark Tank India",
+    "bio": "Indian engineer and MBA who co-founded SUGAR Cosmetics and leads it as CEO; she has been an investor ('Shark') on Shark Tank India since it began in 2021.",
+    "experience": [
+      "Co-founder & CEO, SUGAR Cosmetics.",
+      "Shark (investor/judge), Shark Tank India (since 2021)."
+    ],
+    "achievements": [
+      "Bachelor's in electrical engineering, IIT Madras (2005); MBA, IIM Ahmedabad (2007).",
+      "Named to India Today's She List (2026)."
+    ],
+    "whyRoleModel": "An engineer who chose to build a homegrown beauty brand from scratch.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vineeta_Singh"
+      },
+      {
+        "label": "India Today (2026)",
+        "url": "https://www.indiatoday.in/magazine/the-she-list/the-she-list-2026/story/20260824-beauty-made-in-india-vineeta-singh-43-co-founder-ceo-sugar-cosmetics-2972448-2026-08-16"
+      }
+    ],
+    "photo": "",
+    "adjacent": false,
+    "country": "India",
+    "region": "Asia",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "leena-nair",
+    "name": "Leena Nair",
+    "slug": "leena-nair",
+    "group": "industry",
+    "domain": "retail",
+    "field": "Luxury retail leadership",
+    "tags": [
+      "CEO",
+      "Luxury"
+    ],
+    "role": "Global CEO, Chanel",
+    "bio": "British-Indian executive who became Chanel's Global CEO in January 2022 after three decades at Unilever, where she was the first female and youngest chief human resources officer.",
+    "experience": [
+      "Global Chief Executive Officer, Chanel (since Jan 2022).",
+      "Unilever (about 30 years): Chief Human Resources Officer and Executive Committee member.",
+      "Trustee, British Museum (appointed 2026)."
+    ],
+    "achievements": [
+      "CBE (2025) for services to the retail and consumer sector.",
+      "TIME Women of the Year (2024).",
+      "Fortune Most Powerful Women (2026)."
+    ],
+    "whyRoleModel": "Started her career in India and now leads one of the world's most famous fashion houses.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Leena_Nair"
+      },
+      {
+        "label": "British Museum (2026)",
+        "url": "https://www.britishmuseum.org/about-us/press/press-releases/leena-nair-cbe-appointed-british-museum-trustee"
+      },
+      {
+        "label": "Fortune MPW 2026",
+        "url": "https://fortune.com/ranking/most-powerful-women/2026/leena-nair/"
+      }
+    ],
+    "photo": "portraits/leena-nair.jpg",
+    "adjacent": false,
+    "country": "United Kingdom / India",
+    "region": "Europe",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "michelle-gass",
+    "name": "Michelle Gass",
+    "slug": "michelle-gass",
+    "group": "industry",
+    "domain": "retail",
+    "field": "Apparel & omnichannel retail",
+    "tags": [
+      "CEO",
+      "Retail"
+    ],
+    "role": "President & CEO, Levi Strauss & Co.",
+    "bio": "American retail leader and chemical engineer who became Levi Strauss & Co.'s first female CEO in January 2024, after five years as CEO of Kohl's and nearly 17 years at Starbucks.",
+    "experience": [
+      "President & CEO, Levi Strauss & Co. (CEO since Jan 2024; joined as president in 2023).",
+      "CEO, Kohl's (five years): built a multibillion-dollar e-commerce business and partnerships with Sephora and Amazon.",
+      "Starbucks (close to 17 years), including president, Starbucks EMEA.",
+      "Began her career at Procter & Gamble."
+    ],
+    "achievements": [
+      "National Retail Federation's The Visionary (2020).",
+      "Fortune Most Powerful Women (2026).",
+      "B.S. chemical engineering, Worcester Polytechnic Institute."
+    ],
+    "whyRoleModel": "An engineer who became one of retail's top CEOs.",
+    "links": [
+      {
+        "label": "Levi Strauss & Co. bio",
+        "url": "https://www.levistrauss.com/who-we-are/leadership/michelle-gass/"
+      },
+      {
+        "label": "Fortune MPW 2026",
+        "url": "https://fortune.com/ranking/most-powerful-women/2026/michelle-gass/"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Michelle_Gass"
+      }
+    ],
+    "photo": "",
+    "adjacent": false,
+    "country": "United States",
+    "region": "Americas",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "rosalia-mera",
+    "name": "Rosalía Mera",
+    "slug": "rosalia-mera",
+    "group": "trail",
+    "domain": "retail",
+    "field": "Fashion retail",
+    "tags": [
+      "Founder",
+      "Zara"
+    ],
+    "role": "Co-founder, Zara (1944–2013)",
+    "bio": "Spanish businesswoman who co-founded the Zara retail chain in 1975. Zara grew into the world's largest fashion retailer, and at her death she was the world's richest self-made woman according to Forbes.",
+    "experience": [
+      "Co-founded Zara (1975)."
+    ],
+    "achievements": [
+      "Ranked among Forbes' world's most powerful women (2013).",
+      "World's richest self-made woman per Forbes at the time of her death."
+    ],
+    "whyRoleModel": "Helped build a small Spanish shop into the world's biggest fashion retailer.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rosal%C3%ADa_Mera"
+      }
+    ],
+    "photo": "",
+    "adjacent": false,
+    "country": "Spain",
+    "region": "Europe",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "anita-roddick",
+    "name": "Dame Anita Roddick",
+    "slug": "anita-roddick",
+    "group": "trail",
+    "domain": "retail",
+    "field": "Ethical retail",
+    "tags": [
+      "Founder",
+      "Sustainability"
+    ],
+    "role": "Founder, The Body Shop (1942–2007)",
+    "bio": "British businesswoman and campaigner who founded The Body Shop in 1976. It was one of the first cosmetics retailers to ban animal-tested products and promote fair trade with developing countries.",
+    "experience": [
+      "Founded The Body Shop (1976).",
+      "L'Oréal bought The Body Shop for £652 million (2006)."
+    ],
+    "achievements": [
+      "Dame Commander of the Order of the British Empire (DBE).",
+      "Helped shape ethical consumerism worldwide."
+    ],
+    "whyRoleModel": "Showed that a shop can make money and do good at the same time.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Anita_Roddick"
+      }
+    ],
+    "photo": "",
+    "adjacent": false,
+    "country": "United Kingdom",
+    "region": "Europe",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "tara-fela-durotoye",
+    "name": "Tara Fela-Durotoye",
+    "slug": "tara-fela-durotoye",
+    "group": "industry",
+    "domain": "retail",
+    "field": "Beauty retail",
+    "tags": [
+      "Founder",
+      "Nigeria"
+    ],
+    "role": "Founder & CEO, House of Tara International",
+    "bio": "Nigerian beauty entrepreneur and lawyer who pioneered bridal makeup in Nigeria and built House of Tara into a pan-African beauty brand with stores, schools and thousands of sales representatives.",
+    "experience": [
+      "Founder & CEO, House of Tara International.",
+      "Launched Nigeria's first bridal directory (1999) and established the country's first makeup school."
+    ],
+    "achievements": [
+      "House of Tara had 270 products, 23 stores, 14 beauty schools and 10,000 representatives across Africa (2019).",
+      "Forbes Africa's 50 Most Powerful Women (2020).",
+      "Africa SMME Award (2007)."
+    ],
+    "whyRoleModel": "Built a whole beauty industry in her country, not just a business.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tara_Fela-Durotoye"
+      }
+    ],
+    "photo": "portraits/tara-fela-durotoye.jpg",
+    "adjacent": false,
+    "country": "Nigeria",
+    "region": "Africa",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "roshni-nadar-malhotra",
+    "name": "Roshni Nadar Malhotra",
+    "slug": "roshni-nadar-malhotra",
+    "group": "industry",
+    "domain": "it",
+    "field": "IT services leadership",
+    "tags": [
+      "Chairperson",
+      "IT services"
+    ],
+    "role": "Chairperson, HCLTech; CEO, HCL Corporation",
+    "bio": "Indian business leader who chairs HCLTech, one of India's largest IT services companies, and is the first woman to lead a listed IT company in India.",
+    "experience": [
+      "Chairperson, HCL Technologies (HCLTech).",
+      "Executive director & CEO, HCL Corporation.",
+      "Chairperson, VidyaGyan Leadership Academy."
+    ],
+    "achievements": [
+      "First woman to lead a listed IT company in India.",
+      "Forbes World's 100 Most Powerful Women (2019, 2023, 2024).",
+      "Fortune Most Powerful Women Asia (2026)."
+    ],
+    "whyRoleModel": "The first woman to chair a listed Indian IT company.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Roshni_Nadar"
+      },
+      {
+        "label": "HCLTech Annual Report 2025-26",
+        "url": "https://www.hcltech.com/hcl-annual-report-2026/founder-and-board-of-directors"
+      },
+      {
+        "label": "Fortune MPW Asia 2026",
+        "url": "https://fortune.com/asia/ranking/most-powerful-women-asia/2026/roshni-nadar-malhotra/"
+      }
+    ],
+    "photo": "",
+    "adjacent": false,
+    "country": "India",
+    "region": "Asia",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "tomoko-namba",
+    "name": "Tomoko Namba",
+    "slug": "tomoko-namba",
+    "group": "industry",
+    "domain": "it",
+    "field": "Internet & mobile platforms",
+    "tags": [
+      "Founder",
+      "CEO"
+    ],
+    "role": "Founder and President & CEO, DeNA",
+    "bio": "Japanese entrepreneur and former McKinsey partner who founded DeNA in 1999, one of Japan's largest mobile internet and gaming companies, and returned as its President & CEO in 2026.",
+    "experience": [
+      "Founded DeNA (1999); CEO 1999–2011, then executive chair.",
+      "President & CEO, DeNA (again from June 2026).",
+      "Partner, McKinsey & Co. (third Japanese woman to make partner)."
+    ],
+    "achievements": [
+      "First woman vice-chair of the Japan Business Federation (Keidanren), appointed 2021.",
+      "MBA, Harvard Business School (1990)."
+    ],
+    "whyRoleModel": "Left a top consulting job to build one of Japan's big tech companies.",
+    "links": [
+      {
+        "label": "DeNA leadership",
+        "url": "https://dena.com/intl/company/officer.html"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tomoko_Namba"
+      }
+    ],
+    "photo": "portraits/tomoko-namba.jpg",
+    "adjacent": false,
+    "country": "Japan",
+    "region": "Asia",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "juliana-rotich",
+    "name": "Juliana Rotich",
+    "slug": "juliana-rotich",
+    "group": "industry",
+    "domain": "it",
+    "field": "Open-source software & digital infrastructure",
+    "tags": [
+      "Founder",
+      "Kenya"
+    ],
+    "role": "Founder & CEO, Kehmett Consulting; co-founder, Ushahidi, iHub and BRCK",
+    "bio": "Kenyan technologist who co-founded Ushahidi, the open-source crisis-mapping software born from Kenya's 2007–08 post-election crisis, plus Nairobi's iHub and BRCK, and later led fintech solutions at Safaricom.",
+    "experience": [
+      "Founder & CEO, Kehmett Consulting (digital transformation and AI adoption).",
+      "Co-founder and former CEO, Ushahidi; co-founder of iHub and BRCK.",
+      "Former Head of Fintech Solutions, Safaricom; former CEO, Electronic Citizen Solutions.",
+      "Independent non-executive director, Nation Media Group (2026)."
+    ],
+    "achievements": [
+      "German Africa Prize (2019).",
+      "TED Senior Fellow; World Economic Forum Young Global Leader.",
+      "Member, Gates Foundation AI Ethics Committee."
+    ],
+    "whyRoleModel": "Built software in Nairobi that the whole world uses in emergencies.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Juliana_Rotich"
+      },
+      {
+        "label": "Nation Media Group board",
+        "url": "https://www.nationmedia.com/who-we-are/board-of-directors/"
+      }
+    ],
+    "photo": "portraits/juliana-rotich.jpg",
+    "adjacent": false,
+    "country": "Kenya",
+    "region": "Africa",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "funke-opeke",
+    "name": "Funke Opeke",
+    "slug": "funke-opeke",
+    "group": "trail",
+    "domain": "it",
+    "field": "Telecoms & internet infrastructure",
+    "tags": [
+      "Founder",
+      "Connectivity"
+    ],
+    "role": "Founder, MainOne; strategic adviser, MainOne (an Equinix company)",
+    "bio": "Nigerian electrical engineer who founded MainOne in 2008 and built a 7,000-km submarine cable from Portugal to West Africa, expanding internet access in the region.",
+    "experience": [
+      "Founder and CEO, MainOne; Managing Director for West Africa after the Equinix acquisition, until November 2024.",
+      "Chief Technical Officer, MTN Nigeria (from 2005).",
+      "Earlier career at Verizon in New York."
+    ],
+    "achievements": [
+      "Built a 7,000-km submarine cable with landings in Nigeria, Ghana and Côte d'Ivoire.",
+      "MainOne was acquired by Equinix in 2022 at an enterprise value of about $320 million."
+    ],
+    "whyRoleModel": "Brought faster internet to millions of people across West Africa.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Funke_Opeke"
+      }
+    ],
+    "photo": "portraits/funke-opeke.jpg",
+    "adjacent": false,
+    "country": "Nigeria",
+    "region": "Africa",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "rebecca-enonchong",
+    "name": "Rebecca Enonchong",
+    "slug": "rebecca-enonchong",
+    "group": "industry",
+    "domain": "it",
+    "field": "Enterprise software",
+    "tags": [
+      "Founder",
+      "Africa tech"
+    ],
+    "role": "Founder & CEO, AppsTech; Chair Emeritus, AfriLabs",
+    "bio": "Cameroonian technology entrepreneur who founded the enterprise-software company AppsTech in 1999 and is a leading champion of African start-ups through AfriLabs.",
+    "experience": [
+      "Founder & CEO, AppsTech (1999), an Oracle Platinum Partner with customers in over 40 countries.",
+      "Chair, then Chair Emeritus, AfriLabs.",
+      "Vice-chair, International Chamber of Commerce (from June 2026).",
+      "Earlier roles at the Inter-American Development Bank and Oracle."
+    ],
+    "achievements": [
+      "World Economic Forum Global Leader for Tomorrow (2002).",
+      "International Fellow, Royal Academy of Engineering (2022)."
+    ],
+    "whyRoleModel": "Built a global software company and now helps African founders do the same.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rebecca_Enonchong"
+      }
+    ],
+    "photo": "portraits/rebecca-enonchong.jpg",
+    "adjacent": false,
+    "country": "Cameroon / United States",
+    "region": "Africa",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "safra-catz",
+    "name": "Safra Catz",
+    "slug": "safra-catz",
+    "group": "industry",
+    "domain": "it",
+    "field": "Enterprise software leadership",
+    "tags": [
+      "CEO",
+      "Oracle"
+    ],
+    "role": "Executive Vice Chair, Oracle; former CEO (2014–2025)",
+    "bio": "Israeli-American executive who joined Oracle in 1999 and led it as CEO from 2014 to September 2025, when she became executive vice chair of the board.",
+    "experience": [
+      "Executive Vice Chair of the Board, Oracle (since Sept 2025).",
+      "CEO, Oracle (co-CEO from 2014, sole CEO 2019–2025).",
+      "CFO (2005–2008, 2011–2014) and president of Oracle.",
+      "Investment banker at Donaldson, Lufkin & Jenrette before Oracle."
+    ],
+    "achievements": [
+      "Credited with driving Oracle's $10.3 billion acquisition of PeopleSoft (2005).",
+      "Board member of Oracle since 2001."
+    ],
+    "whyRoleModel": "Led one of the world's biggest software companies for more than a decade.",
+    "links": [
+      {
+        "label": "Oracle bio",
+        "url": "https://www.oracle.com/corporate/executives/safra-catz/"
+      },
+      {
+        "label": "Oracle press release (2025)",
+        "url": "https://investor.oracle.com/investor-news/news-details/2025/Oracle-Corporation-Announces-Promotion-of-Clay-Magouyrk-and-Mike-Sicilia-to-CEOs-Safra-Catz-Appointed-Executive-Vice-Chair-of-the-Board-of-Directors/default.aspx"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Safra_Catz"
+      }
+    ],
+    "photo": "portraits/safra-catz.jpg",
+    "adjacent": false,
+    "country": "Israel / United States",
+    "region": "Americas",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "stephanie-shirley",
+    "name": "Dame Stephanie “Steve” Shirley",
+    "slug": "stephanie-shirley",
+    "group": "trail",
+    "domain": "it",
+    "field": "Software pioneer",
+    "tags": [
+      "Pioneer",
+      "Software"
+    ],
+    "role": "Founder, Freelance Programmers; IT pioneer and philanthropist (1933–2025)",
+    "bio": "German-born British IT pioneer who arrived in Britain as a Kindertransport child refugee, built early computers, and founded the software company Freelance Programmers with £6, hiring mainly women who worked part-time from home.",
+    "experience": [
+      "Post Office Research Station, Dollis Hill (1950s): built computers and wrote machine code.",
+      "CDL Ltd, designers of the ICT 1301 computer (1959).",
+      "Founded Freelance Programmers, a software company that mainly employed women with dependants."
+    ],
+    "achievements": [
+      "Dame Commander (DBE) for services to IT (2000); Companion of Honour (2017).",
+      "Gave away about £67 million of her personal wealth, much of it to autism research.",
+      "Memoir: Let IT Go (2012)."
+    ],
+    "whyRoleModel": "Created flexible tech jobs for women long before remote work was common.",
+    "links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Stephanie_Shirley"
+      }
+    ],
+    "photo": "portraits/stephanie-shirley.jpg",
+    "adjacent": false,
+    "country": "United Kingdom",
+    "region": "Europe",
+    "addedOn": "2026-11-21"
+  },
+  {
+    "id": "sultanah-aljaser",
+    "name": "Sultanah Aljaser",
+    "slug": "sultanah-aljaser",
+    "group": "watch",
+    "domain": "it",
+    "field": "University IT & digital transformation",
+    "tags": [
+      "CIO",
+      "Saudi"
+    ],
+    "role": "Chief Information Officer, Princess Nourah bint Abdulrahman University (PNU)",
+    "bio": "Saudi engineer who serves as CIO of Princess Nourah University, one of the world's largest women's universities, leading its digital services and technology projects.",
+    "experience": [
+      "Chief Information Officer, Princess Nourah bint Abdulrahman University.",
+      "Led several development and technology projects modernising PNU's systems and digital services."
+    ],
+    "achievements": [
+      "During her master's studies, built Arabic-language support into a virtual assistant for university students.",
+      "Featured in the IDC Middle East CIO Summit 2026 CXO Spotlight."
+    ],
+    "whyRoleModel": "A Saudi woman running the technology of a whole university in Riyadh.",
+    "links": [
+      {
+        "label": "IDC CIO Summit 2026",
+        "url": "https://event.idc.com/event/idc-middle-east-cio-summit-2026/knowledge-hub-sultanah-aljaser/"
+      }
+    ],
+    "photo": "",
+    "adjacent": false,
+    "country": "Saudi Arabia",
+    "region": "GCC",
+    "addedOn": "2026-11-21"
   }
 ];
