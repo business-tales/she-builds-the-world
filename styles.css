@@ -596,3 +596,103 @@ body.locked { overflow: hidden; }
 .card-country { margin: .15rem 0 0; font-size: .8rem; opacity: .75; }
 .sources { font-size: .85rem; line-height: 1.5; word-break: break-word; }
 .sources a { color: inherit; }
+
+
+/* ---------- Site nav ---------- */
+.site-nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.2rem;
+  margin: 0 0 1.4rem;
+}
+.site-nav a {
+  color: var(--cream);
+  text-decoration: none;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 0.12rem;
+}
+.site-nav a:hover,
+.site-nav a:focus-visible {
+  color: var(--brass-bright);
+  border-bottom-color: var(--brass);
+  outline: none;
+}
+.site-nav a[aria-current="page"] {
+  color: var(--brass-bright);
+  border-bottom-color: var(--brass);
+}
+
+/* ---------- About page ---------- */
+.hero-about {
+  padding: 2rem 0 2.6rem;
+}
+.hero-about h1 {
+  font-size: clamp(2.1rem, 5.4vw, 3.6rem);
+  line-height: 1.08;
+}
+.about {
+  background: var(--paper);
+  padding: 2.8rem 0 4rem;
+}
+.about-article {
+  max-width: 42rem;
+}
+.about-section {
+  margin: 0 0 2.4rem;
+}
+.about-section:last-child {
+  margin-bottom: 0;
+}
+.about h2 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(1.5rem, 3vw, 1.85rem);
+  margin: 0 0 0.7rem;
+  letter-spacing: -0.02em;
+}
+.about p {
+  margin: 0 0 0.85rem;
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+}
+.about p:last-child {
+  margin-bottom: 0;
+}
+.about-domains {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  list-style: none;
+  margin: 0 0 1.1rem;
+  padding: 0;
+}
+.about-domains li {
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid var(--line);
+  color: var(--ink-soft);
+  padding: 0.28rem 0.7rem;
+  border-radius: 999px;
+  background: var(--cream);
+}
+.about-groups {
+  margin: 0 0 1.1rem;
+  padding-left: 1.15rem;
+  color: var(--ink-soft);
+}
+.about-groups li {
+  margin: 0.35rem 0;
+}
+.about-groups strong {
+  color: var(--ink);
+}
+
+@media (max-width: 640px) {
+  .hero-about h1 { font-size: 2.1rem; }
+  .site-nav { justify-content: flex-start; margin-bottom: 1.1rem; }
+}

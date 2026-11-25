@@ -20,6 +20,7 @@ Then visit <http://127.0.0.1:8765/>.
 | File | Purpose |
 | --- | --- |
 | `index.html` | The gallery |
+| `about.html` | Why the gallery exists, how it is built, and how it is refreshed |
 | `styles.css` | Editorial layout (navy / cream / brass / terracotta) |
 | `app.js` | Domain filters, group filters, search, mini-CV panel |
 | `profiles.js` | Verified public facts only |
